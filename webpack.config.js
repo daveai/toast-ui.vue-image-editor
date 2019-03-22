@@ -39,6 +39,15 @@ module.exports = {
                 }
             },
             {
+                test: /\.css$/,
+                use: [
+                  process.env.NODE_ENV !== 'production'
+                    ? 'vue-style-loader'
+                    : MiniCssExtractPlugin.loader,
+                  'css-loader'
+                ]
+              },
+            {
                 test: /\.js$/,
                 include: [path.resolve(__dirname, 'src')],
                 loader: 'babel-loader'
