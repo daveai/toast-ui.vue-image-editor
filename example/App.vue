@@ -1,6 +1,5 @@
 <template>
-    <div>
-        <h1>🍞🎨 TOAST UI Image Editor + Vue</h1>
+    <div>       
         <div class="imageEditorApp">
             <tui-image-editor ref="tuiImageEditor"
                               :include-ui="useDefaultUI"
@@ -58,7 +57,8 @@ export default {
 </script>
 <style scoped>
 .imageEditorApp {
-    width: 1000px;
-    height: 800px;
+    width: 100%;
+    height: 100vh;
 }
+
 </style>
