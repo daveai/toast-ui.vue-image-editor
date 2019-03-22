@@ -113,7 +113,7 @@ export default {
 };
 </script>
 <style>
-.tui-image-editor-header-logo > img {
+.tui-image-editor-header-logo  {
     display: none;
 }
 </style>
