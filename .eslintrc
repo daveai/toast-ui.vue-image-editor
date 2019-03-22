@@ -11,5 +11,8 @@
   },
   "plugins": [
     "vue"
-  ]
+  ],
+  "rules": {
+    "indent": "off"
+  }
 }
